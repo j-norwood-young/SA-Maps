@@ -48,4 +48,4 @@ Source: http://www.education.gov.za/EMIS/EMISDownloads/tabid/466/Default.aspx
 Command we used for making CSV smaller: 
 ```cut -d, -f 1,5-6,11,25-26,31,33,35,37,38,48-65,100-101 input.csv > output.csv```
 Command we used for changing ``GIS_Lat`` and ``GIS_Long`` to latitude and longitude: 
-```sed 's/GIS_Lat/latitude/' CapeOrdinarySchools.csv | sed 's/GIS_Long/longitude/' > CapeOrdinarySchools_ed.csv```
+```sed 's/GIS_Lat/latitude/' input.csv | sed 's/GIS_Long/longitude/' > output.csv```
