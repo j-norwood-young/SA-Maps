@@ -41,7 +41,7 @@ Source: http://www.demarcation.org.za/
 Schools
 -------
 
-School data includes all the schools in South Africa according to the Dept of Education (data for 2012 and 2013), plus education districts. Please note that education districts don't seem to be 100% accurate, especially in Limpopo, and there are no school district names provided by the Department of Basic Education for Mpumalanga. Weird.
+School data includes all the schools in South Africa according to the Dept of Education (data for 2012 and 2013), plus education districts. Please note that education districts don't seem to be 100% accurate, especially in North West, and there are no school district names provided by the Department of Basic Education for Mpumalanga. Weird.
 
 ![Schools](https://raw.github.com/j-norwood-young/SA-Maps/master/Examples/schools.png "South African schools with govt schools in red and private schools in green")
 
