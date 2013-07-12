@@ -41,7 +41,7 @@ Source: http://www.demarcation.org.za/
 Schools
 -------
 
-School data includes all the schools in South Africa according to the Dept of Education (data for 2012 and 2013), plus education districts. Please note that education districts don't seem to be 100% accurate, especially in Limpopo, and there are no school district names provided by the Department of Basic Education for Mpumalanga. Weird.
+School data includes all the schools in South Africa according to the Dept of Education (data for 2012 and 2013), plus education districts. Please note that education districts don't seem to be 100% accurate, especially in North West, and there are no school district names provided by the Department of Basic Education for Mpumalanga. Weird.
 
 ![Schools](https://raw.github.com/j-norwood-young/SA-Maps/master/Examples/schools.png "South African schools with govt schools in red and private schools in green")
 
@@ -55,3 +55,23 @@ Command we used for making CSV smaller (2013 data):
 
 Command we used for changing ``GIS_Lat`` and ``GIS_Long`` to ``latitude`` and ``longitude`` (2012 data only): 
 ```sed 's/GIS_Lat/latitude/' input.csv | sed 's/GIS_Long/longitude/' > output.csv```
+
+Subplaces
+---------
+
+Like, suburbs, dude! 
+
+Please note that these are ZIPPED UP becaue of Git's 100MB file limit! If you make changes, zip it up again and add the zip, not the subplace folder. 
+
+Source: Statistics SA Census 2011 Spatial Metadata
+
+![Subplaces](https://raw.github.com/j-norwood-young/SA-Maps/master/Examples/subplaces.png "Subplaces")
+
+Main Places
+-----------
+
+Please note that these are ZIPPED UP becaue of Git's 100MB file limit! If you make changes, zip it up again and add the zip, not the main place folder. 
+
+Source: Statistics SA Census 2011 Spatial Metadata
+
+![Main places](https://raw.github.com/j-norwood-young/SA-Maps/master/Examples/mainplaces.png "Main places")
