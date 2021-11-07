@@ -3,13 +3,6 @@ SA Maps
 
 South African Shapefiles, GIS data and other useful mapping stuff
 
-CSIR Mesozones
---------------
-
-![CSIR Mesozones](https://raw.github.com/j-norwood-young/SA-Maps/master/Examples/mesozones.png "CSIR Mesozones")
-
-Source: http://www.gap.csir.co.za/download-maps-and-data
-
 Provinces
 ---------
 
@@ -37,6 +30,17 @@ Wards
 ![Wards](https://raw.github.com/j-norwood-young/SA-Maps/master/Examples/wards.png "Wards")
 
 Source: http://www.demarcation.org.za/
+
+Voting Districts
+----------------
+
+2021 Voting Districts
+
+![Voting Districts](https://raw.github.com/j-norwood-young/SA-Maps/master/Examples/votingdistricts.png "Voting Districts")
+
+Please note that these are ZIPPED UP becaue of Git's 100MB file limit! If you make changes, zip it up again and add the zip, not the voting district folder. 
+
+Source: https://www.elections.org.za/
 
 Schools
 -------
@@ -75,3 +79,10 @@ Please note that these are ZIPPED UP becaue of Git's 100MB file limit! If you ma
 Source: Statistics SA Census 2011 Spatial Metadata
 
 ![Main places](https://raw.github.com/j-norwood-young/SA-Maps/master/Examples/mainplaces.png "Main places")
+
+CSIR Mesozones
+--------------
+
+![CSIR Mesozones](https://raw.github.com/j-norwood-young/SA-Maps/master/Examples/mesozones.png "CSIR Mesozones")
+
+Source: http://www.gap.csir.co.za/download-maps-and-data
