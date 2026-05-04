@@ -3,6 +3,33 @@ SA Maps
 
 South African Shapefiles, GIS data and other useful mapping stuff
 
+If you use Git to copy this repository
+--------------------------------------
+
+Some of the map files (ZIP archives and shapefiles) are stored using a small add-on called **Git LFS**. If you skip the steps below, those files may stay tiny and will not open properly.
+
+1. Install Git LFS (free): [git-lfs.com](https://git-lfs.com/). On a Mac with Homebrew you can run: `brew install git-lfs`
+2. Open Terminal, go to your copy of this folder, and run: `git lfs install` (only needed once per computer)
+3. Then run: `git lfs pull`
+
+If you already cloned the repo before doing this, run steps 2 and 3 inside the project folder and your map files should download correctly.
+
+Planning to contribute changes through Git? Install Git LFS and run `git lfs install` first so large map files upload correctly when you push.
+
+Only need some files?
+----------------------
+
+You do not have to download the whole repository.
+
+- **Using the website:** Open the [repository on GitHub](https://github.com/j-norwood-young/SA-Maps), browse to the folder you care about, click the file you want, then use **Download** (or the **⋮** menu on the file view). Repeat for each map file you need.
+
+- **Using Git:** After cloning, you can fetch large files for part of the tree only. For example, to pull just the `Wards` folder:
+
+  `GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/j-norwood-young/SA-Maps.git`  
+  `cd SA-Maps && git lfs install && git lfs pull --include="Wards/*"`
+
+  Change `Wards/*` to match the folder you need (for example `Voting Districts/*`).
+
 Provinces
 ---------
 
