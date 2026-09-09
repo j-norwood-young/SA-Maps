@@ -1,2 +1,4 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.shp filter=lfs diff=lfs merge=lfs -text
+Voting[[:space:]]Districts/2026.zip filter=lfs diff=lfs merge=lfs -text
+Voting[[:space:]]Stations/2026/Voting_Stations_2026.dbf filter=lfs diff=lfs merge=lfs -text
